@@ -20,6 +20,12 @@
             "PhpGitHooks": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pawellewandowski/php-value-objects"
+        }
+    ],
     "require": {
         "php": "^7.1",
         "friendsofphp/php-cs-fixer": "^2.1",
