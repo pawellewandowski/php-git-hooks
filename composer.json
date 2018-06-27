@@ -23,7 +23,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/pawellewandowski/php-value-objects"
+            "url": "https://github.com/pawellewandowski/php-value-objects.git"
         }
     ],
     "require": {
