@@ -20,12 +20,7 @@
             "PhpGitHooks": "src/"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/pawellewandowski/php-value-objects.git"
-        }
-    ],
+   
     "require": {
         "php": "^7.1",
         "friendsofphp/php-cs-fixer": "^2.1",
@@ -43,6 +38,12 @@
         "bruli/event-bus-bundle": "^0.4",
         "symfony/flex": "~1.0"
     },
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pawellewandowski/php-value-objects.git"
+        }
+    ],
     "require-dev": {
         "fzaninotto/faker": "^1.6",
         "mockery/mockery": "~0.9",
